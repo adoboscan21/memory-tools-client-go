@@ -1,4 +1,4 @@
-package mtclient
+package client
 
 import (
 	"bufio"
