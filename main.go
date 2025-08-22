@@ -6,13 +6,14 @@ import (
 	"crypto/tls"
 	"crypto/x509"
 	"encoding/binary"
-	"encoding/json"
 	"fmt"
 	"io"
 	"net"
 	"os"
 	"sync"
 	"time"
+
+	json "github.com/json-iterator/go"
 )
 
 // --- Protocol Constants (Synchronized with the server) ---
